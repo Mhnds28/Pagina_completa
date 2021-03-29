@@ -1,55 +1,131 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="apple-touch-icon" sizes="180x180" href="imagens/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="imagens/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="imagens/favicon-16x16.png" />
-    <link rel="manifest" href="/site.webmanifest" />
-    <title>WebSite</title>
-  </head>
-  <body>
 
-    <div class="container">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="refresh" content="10"> 
+  <link rel="stylesheet" href="style.css" />
+  <link rel="apple-touch-icon" sizes="180x180" href="imagens/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="imagens/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="imagens/favicon-16x16.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <title>WebSite</title>
+</head>
 
-        <div class="hamburguer">
-          <div class="line" id="line1"></div>
-          <div class="line" id="line2"></div>
-          <div class="line" id="line3"></div>
-          <span>Fechar</span>
-        </div>  
+<body>
 
-        <header id="home">
-            <div class="img-wrapper">
-                <img src="imagens/bg.jpg" alt="">
-            </div>
-            <div class="banner">
-                <h1>Web Developer & Front End <br> Designer</h1>
-                <p>Marcos Henrique</p>
-                <button>Saiba mais</button>
-            </div>
-        </header>
+  <div class="container">
 
-        <aside class="sidebar">
-          <nav>
-            <ul class="menu">
-              <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
-              <li class="menu-item"><a href="#conhecimentos" class="menu-link">Conhecimento</a></li>
-              <li class="menu-item"><a href="#projetos" class="menu-link">Projetos</a></li>
-              <li class="menu-item"><a href="#contato" class="menu-link">Contato</a></li>
-              <li class="menu-item"><a href="#orcamento" class="menu-link">Orçamento</a></li>
-            </ul>
-          </nav>
-          <div class="social-media">
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-github-alt"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-          </div>
-        </aside>
-
+    <div class="hamburguer">
+      <div class="line" id="line1"></div>
+      <div class="line" id="line2"></div>
+      <div class="line" id="line3"></div>
+      <span>Fechar</span>
     </div>
+
+    <header id="home">
+      <div class="img-wrapper">
+        <img src="imagens/bg.jpg" alt="">
+      </div>
+      <div class="banner">
+        <h1>Web Developer & Front End <br> Designer</h1>
+        <p>Marcos Henrique</p>
+        <button>Saiba mais</button>
+      </div>
+    </header>
+
+    <aside class="sidebar">
+      <nav>
+        <ul class="menu">
+          <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+          <li class="menu-item"><a href="#conhecimentos" class="menu-link">Conhecimento</a></li>
+          <li class="menu-item"><a href="#projetos" class="menu-link">Projetos</a></li>
+          <li class="menu-item"><a href="#contato" class="menu-link">Contato</a></li>
+          <li class="menu-item"><a href="#orcamento" class="menu-link">Orçamento</a></li>
+        </ul>
+      </nav>
+      <div class="social-media">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-github-alt"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+    </aside>
+
+    <section class="sessao-conhecimentos" id="conhecimentos">
+      <div class="sessao-header">
+        <h1>Conhecimentos</h1>
+      </div>
+      <div class="conhecimentos">
+        <div class="conhecimento">
+          <div class="conhecimento-header">
+            <i class="fab fa-html5"></i>
+            <h3>HTML</h3>
+          </div>
+          <div class="conhecimento-text">
+            <p>O HTML5 é a versão recente da linguagem de programação conhecida como HTML (Hyper Text Markup Language), sigla 
+              em Inglês para Linguagem de Marcação de Hipertexto. Essa linguagem usa um texto codificado para criar e organizar conteúdo online.
+            </p>
+          </div>
+        </div>
+        <div class="conhecimento">
+          <div class="conhecimento-header">
+            <i class="fab fa-css3-alt"></i>
+            <h3>CSS</h3>
+          </div>
+          <div class="conhecimento-text">
+            <p>CSS3 é a terceira mais nova versão das famosas Cascading Style Sheets (ou simplesmente CSS), 
+              pela qual se define estilos para um projeto web (página de internet)..</p>
+          </div>
+        </div>
+        <div class="conhecimento">
+          <div class="conhecimento-header">
+            <i class="fas fa-pencil-alt"></i>
+            <h3>Design</h3>
+          </div>
+          <div class="conhecimento-text">
+            <p>Web Designer é uma ferramenta visual, mas o usuário também pode utilizar JavaScript e CSS
+               para deixar a criação ainda mais personalizada. ...</p>
+          </div>
+        </div>
+        <div class="conhecimento">
+          <div class="conhecimento-header">
+            <i class="fab fa-js"></i>
+            <h3>Javascript</h3>
+          </div>
+          <div class="conhecimento-text">
+            <p>JavaScript é uma linguagem de programação que permite você implementar itens complexos em páginas web, toda vez que uma página web faz mais do que simplesmente mostrar a você informação estática,
+              mostrando conteúdo que se atualiza.
+            </p>
+          </div>
+        </div>
+        <div class="conhecimento">
+          <div class="conhecimento-header">
+            <i class="fab fa-bootstrap"></i>
+            <h3>Boostrap</h3>
+          </div>
+          <div class="conhecimento-text">
+            <p>Bootstrap é um framework front-end que facilita a vida dos desenvolvedores web a criar sites com
+               tecnologia mobile (responsivo) sem ter que digitar uma linha de CSS para “fazer e acontecer”.</p>
+          </div>
+        </div>
+        <div class="conhecimento">
+          <div class="conhecimento-header">
+            <i class="fab fa-github"></i>
+            <h3>Git e GitHub</h3>
+          </div>
+          <div class="conhecimento-text">
+            <p>git e github é que o git é só uma ferramenta para versionar projetos, enquanto o github é o site no qual você colocará 
+              esses projetos versionados. uma analogia válida seria que o git é seu pincel e tintas enquanto o github é um museu.</p>
+          </div>
+        </div>
+          <div class="conhecimentos-img-wrapper">
+          <img src="imagens/conhecimentos.png" alt="imagem conhecimento">
+        </div> 
+      </div>
+    </section>
+
+  </div>
 </body>
 <script src="script.js"></script>
 
